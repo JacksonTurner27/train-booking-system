@@ -1,0 +1,14 @@
+#container p {
+  display: inline;
+}
+
+.mainPdf {
+  border-style: solid;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.jumbotron {
+  border: 1px solid black !important;
+}

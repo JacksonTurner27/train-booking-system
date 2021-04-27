@@ -1,0 +1,51 @@
+.mainLogin {
+  position: fixed;
+  background-size: cover;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* overflow: auto; */
+  background-image: url("https://images.unsplash.com/photo-1442570468985-f63ed5de9086?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1993&q=80");
+  background-position: center bottom;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.mainLogin h1 {
+  padding: 20px;
+}
+
+.formDiv {
+  color: black;
+  background: lightgrey;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 450px;
+  height: 350px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+}
+
+.register {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  background: lightgrey;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 450px;
+  height: 350px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+}
